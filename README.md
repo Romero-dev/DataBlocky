@@ -1,5 +1,9 @@
 # 🚀 DataBlocky
 
+<p align="center">
+  <img src="https://github.com/Romero-dev/DataBlocky/blob/main/logo2.png?raw=true" width="256"/>
+</p>
+
 DataBlocky is a visual editor for Minecraft Java Edition datapacks. Build .mcfunction commands by connecting blocks instead of writing every command by hand.
 
 ## ✨ Features (What works right now)
