@@ -1,0 +1,69 @@
+.grid-picker {
+  width: 480px;
+  padding: 10px;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+.grid-picker__search {
+  width: 100%;
+  box-sizing: border-box;
+  padding: 9px 10px;
+  margin-bottom: 10px;
+  border: 1px solid #b8b8b8;
+  border-radius: 6px;
+  font: inherit;
+  outline-offset: 2px;
+}
+
+.grid-picker__grid {
+  display: grid;
+  grid-template-columns: repeat(8, minmax(0, 1fr)); /*how many icons in line*/
+  gap: 6px;
+  max-height: 240px;
+  overflow-y: auto;
+}
+
+.grid-picker__item {
+  min-width: 0;
+  padding: 6px 3px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 4px;
+  border: 1px solid transparent;
+  border-radius: 5px;
+  background: transparent;
+  cursor: pointer;
+  color: inherit;
+}
+
+.grid-picker__item:hover,
+.grid-picker__item:focus-visible {
+  background: #e8f2ff;
+  border-color: #79a9e8;
+  outline: none;
+}
+
+.grid-picker__item img {
+  width: 48px; /*image size*/
+  height: 48px;
+  object-fit: contain;
+  image-rendering: pixelated;
+}
+
+.grid-picker__item span {
+  width: 100%;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  text-align: center;
+  font-size: 11px;
+}
+
+.grid-picker__empty {
+  grid-column: 1 / -1;
+  padding: 16px 4px;
+  text-align: center;
+  color: #777;
+}
