@@ -35,7 +35,7 @@ DataBlocky is a visual editor for Minecraft Java Edition datapacks. Build .mcfun
 |                     |             | worldborder    |             |          |           |
 
 
-## 🛠️ How to run
+## 🛠️ How to run (Development Setup)
 - Install Node JS (downloads and instructions: https://nodejs.org/en/download/)
 - git clone https://github.com/Romero-dev/DataBlocky.git
 - cd DataBlocky
